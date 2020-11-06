@@ -86,7 +86,7 @@ display: inline;
 * {box-sizing:border-box}
 
 /* Slideshow container */
-. photos {
+.photos {
   width: 400px;
 }
 .slideshow-container {
