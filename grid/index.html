@@ -21,4 +21,7 @@ title: Michelle's Page
 	</div>
 </div>
       
-<script type="text/javascript"> new Splide( '.splide' ).mount(); </script>
+<script type="text/javascript"> var elms = document.getElementsByClassName( 'splide' );
+                             for ( var i = 0, len = elms.length; i < len; i++ ) {
+                            new Splide( elms[ i ] ).mount();
+    } </script>
