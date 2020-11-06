@@ -86,6 +86,9 @@ display: inline;
 * {box-sizing:border-box}
 
 /* Slideshow container */
+. photos {
+  width: 400px;
+}
 .slideshow-container {
   max-width: 400px;
   position: relative;
